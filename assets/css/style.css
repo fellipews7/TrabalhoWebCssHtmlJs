@@ -1,0 +1,118 @@
+body, ul, li, p, footer {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: "Fugaz One";
+    color: #F8F8FF;
+}
+
+body{
+    background-color: #87CEEB;
+}
+
+a{
+    text-decoration: none;
+    color: #F8F8FF;
+}
+
+a:hover{
+    background-color: #87CEFA;
+    border-radius: 10px;
+    opacity: 80%;
+}
+
+img{
+    max-width: 100%;
+    max-height: 9.7rem;
+    display: block;
+}
+
+.header {
+    background: #00BFFF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.header > a {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.descricao{
+    font-size: 0.6rem;
+    font-family: "Comic Sans MS";
+}
+
+.preco{
+    font-size: 1rem;
+    color: white;
+}
+
+.campos{
+    width: 30rem;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    border-bottom-color: #F8F8FF;
+}
+
+.campos:hover{
+    width: 30rem;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    opacity: 70%;
+}
+
+.campos:focus{
+    width: 31rem;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-collapse: collapse;
+    opacity: 70%;
+}
+
+
